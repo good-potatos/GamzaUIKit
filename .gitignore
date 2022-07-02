@@ -8,3 +8,5 @@ DerivedData/
 .swiftpm/xcode/package.xcworkspace/contents.xcworkspacedata
 .netrc
 /.swiftpm/xcode/package.xcworkspace/xcshareddata/IDEWorkspaceChecks.plist
+/Example/GamzabadaUIKit-iOS.xcodeproj/project.xcworkspace/xcshareddata/IDEWorkspaceChecks.plist
+/Example/GamzabadaUIKit-iOS.xcodeproj/project.xcworkspace/contents.xcworkspacedata
