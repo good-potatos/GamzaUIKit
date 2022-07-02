@@ -21,9 +21,6 @@ let package = Package(
             dependencies: [
                 .product(name: "CombineExt", package: "CombineExt"),
                 .product(name: "Kingfisher", package: "Kingfisher"),
-            ]),
-        .testTarget(
-            name: "GamzabadaUIKit-iOSTests",
-            dependencies: ["GamzabadaUIKit-iOS"]),
+            ])
     ]
 )
