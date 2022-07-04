@@ -1,11 +1,12 @@
 //
 //  ContentView.swift
-//  GamzabadaUIKit-iOS
+//  GamzabadaUIKit-iOS-Example
 //
-//  Created by Milkyo on 2022/07/02.
+//  Created by Milkyo on 2022/07/05.
 //
 
 import SwiftUI
+import GamzabadaUIKit_iOS
 
 struct ContentView: View {
     var body: some View {
