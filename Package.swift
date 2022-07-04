@@ -22,6 +22,7 @@ let package = Package(
             dependencies: [
                 .product(name: "CombineExt", package: "CombineExt"),
                 .product(name: "Kingfisher", package: "Kingfisher"),
+                .product(name: "GamzaFoundation-iOS", package: "GamzaFoundation-iOS"),
             ],
             path: "GamzabadaUIKit-iOS",
             exclude: ["../Example"]
