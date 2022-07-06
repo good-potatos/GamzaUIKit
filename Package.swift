@@ -13,16 +13,14 @@ let package = Package(
     ],
     dependencies: [
         .package(url: "https://github.com/CombineCommunity/CombineExt.git", from: "1.0.0"),
-        .package(url: "https://github.com/onevcat/Kingfisher", from: "7.2.0"),
-        .package(url: "https://github.com/good-potatos/GamzaFoundation-iOS", .upToNextMajor(from: "1.0.0"))
+        .package(url: "https://github.com/onevcat/Kingfisher", from: "7.2.0")
     ],
     targets: [
         .target(
             name: "GamzabadaUIKit-iOS",
             dependencies: [
                 .product(name: "CombineExt", package: "CombineExt"),
-                .product(name: "Kingfisher", package: "Kingfisher"),
-                .product(name: "GamzaFoundation-iOS", package: "GamzaFoundation-iOS"),
+                .product(name: "Kingfisher", package: "Kingfisher")
             ],
             path: "GamzabadaUIKit-iOS",
             exclude: ["../Example"]
