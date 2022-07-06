@@ -1,3 +1,3 @@
-# GamzabadaUIKit-iOS
+# GamzaUIKit-iOS
 
 A description of this package.
