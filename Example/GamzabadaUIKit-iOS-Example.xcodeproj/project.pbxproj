@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		B9C2D11B2875DA51008CF24D /* GamzaUIKit-iOS in Frameworks */ = {isa = PBXBuildFile; productRef = B9C2D11A2875DA51008CF24D /* GamzaUIKit-iOS */; };
+		B96E2C052875DEE40022BBEC /* GamzaUIKit in Frameworks */ = {isa = PBXBuildFile; productRef = B96E2C042875DEE40022BBEC /* GamzaUIKit */; };
 		B9F8423B28733CBB004927A5 /* GamzabadaUIKit_iOS_ExampleApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9F8423A28733CBB004927A5 /* GamzabadaUIKit_iOS_ExampleApp.swift */; };
 		B9F8423D28733CBB004927A5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9F8423C28733CBB004927A5 /* ContentView.swift */; };
 		B9F8423F28733CBB004927A5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B9F8423E28733CBB004927A5 /* Assets.xcassets */; };
@@ -15,7 +15,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		B9C2D1192875DA47008CF24D /* GamzaUIKit-iOS */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = "GamzaUIKit-iOS"; path = ..; sourceTree = "<group>"; };
+		B96E2C032875DED80022BBEC /* GamzaUIKit */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = GamzaUIKit; path = ..; sourceTree = "<group>"; };
 		B9F8423728733CBB004927A5 /* GamzabadaUIKit-iOS-Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "GamzabadaUIKit-iOS-Example.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B9F8423A28733CBB004927A5 /* GamzabadaUIKit_iOS_ExampleApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GamzabadaUIKit_iOS_ExampleApp.swift; sourceTree = "<group>"; };
 		B9F8423C28733CBB004927A5 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -28,7 +28,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B9C2D11B2875DA51008CF24D /* GamzaUIKit-iOS in Frameworks */,
+				B96E2C052875DEE40022BBEC /* GamzaUIKit in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -75,7 +75,7 @@
 		B9F8424828733CF4004927A5 /* Packages */ = {
 			isa = PBXGroup;
 			children = (
-				B9C2D1192875DA47008CF24D /* GamzaUIKit-iOS */,
+				B96E2C032875DED80022BBEC /* GamzaUIKit */,
 			);
 			name = Packages;
 			sourceTree = "<group>";
@@ -104,7 +104,7 @@
 			);
 			name = "GamzabadaUIKit-iOS-Example";
 			packageProductDependencies = (
-				B9C2D11A2875DA51008CF24D /* GamzaUIKit-iOS */,
+				B96E2C042875DEE40022BBEC /* GamzaUIKit */,
 			);
 			productName = "GamzabadaUIKit-iOS-Example";
 			productReference = B9F8423728733CBB004927A5 /* GamzabadaUIKit-iOS-Example.app */;
@@ -364,9 +364,9 @@
 /* End XCConfigurationList section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		B9C2D11A2875DA51008CF24D /* GamzaUIKit-iOS */ = {
+		B96E2C042875DEE40022BBEC /* GamzaUIKit */ = {
 			isa = XCSwiftPackageProductDependency;
-			productName = "GamzaUIKit-iOS";
+			productName = GamzaUIKit;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};
