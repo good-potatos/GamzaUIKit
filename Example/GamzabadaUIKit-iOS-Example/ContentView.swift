@@ -6,7 +6,6 @@
 //
 
 import SwiftUI
-import GamzabadaUIKit_iOS
 
 struct ContentView: View {
     var body: some View {

@@ -4,12 +4,12 @@
 import PackageDescription
 
 let package = Package(
-    name: "GamzabadaUIKit-iOS",
+    name: "GamzaUIKit-iOS",
     platforms: [.iOS(.v15), .macOS(.v12)],
     products: [
         .library(
-            name: "GamzabadaUIKit-iOS",
-            targets: ["GamzabadaUIKit-iOS"]),
+            name: "GamzaUIKit-iOS",
+            targets: ["GamzaUIKit-iOS"]),
     ],
     dependencies: [
         .package(url: "https://github.com/CombineCommunity/CombineExt.git", from: "1.0.0"),
@@ -17,12 +17,12 @@ let package = Package(
     ],
     targets: [
         .target(
-            name: "GamzabadaUIKit-iOS",
+            name: "GamzaUIKit-iOS",
             dependencies: [
                 .product(name: "CombineExt", package: "CombineExt"),
                 .product(name: "Kingfisher", package: "Kingfisher")
             ],
-            path: "GamzabadaUIKit-iOS",
+            path: "GamzaUIKit-iOS",
             exclude: ["../Example"]
         )
     ]
